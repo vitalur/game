@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./main.js" defer></script>
+    <title>My Pixel World</title>
+</head>
+<body class="page">
+<main role="main" class="container" id="main-container">
+    <div class="starter-template" id="content"></div>
+
+    <div class="actions">
+        <button type="button" class="btn btn-primary choose-player-name" data-toggle="modal"
+                data-target="#choosePlayerName">Name
+        </button>
+        <button type="button" class="btn btn-primary game" data-toggle="modal">Game</button>
+        <button type="button" class="btn btn-primary score" data-toggle="modal">Score</button>
+    </div>
+</main>
+<section class="screenshots">
+    <div class="row">
+        <div class="col">
+            <img src="./images/battle.png" alt="battle" class="myImg">
+        </div>
+        <div class="col">
+            <img src="./images/tasks.png" alt="tasks" class="myImg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="./images/math.png" alt="task math" class="myImg">
+        </div>
+        <div class="col">
+            <img src="./images/engRus.png" alt="task translate" class="myImg">
+        </div>
+        <div class="col">
+            <img src="./images/spelling.png" alt="task spelling" class="myImg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="./images/killMonster.png" alt="death of monster" class="myImg">
+        </div>
+        <div class="col">
+            <img src="./images/killPlayer.png" alt="death of player" class="myImg">
+        </div>
+        <div class="col">
+            <img src="./images/score.png" alt="total score" class="myImg">
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <img class="modal-content" id="img01" alt="image in modal window">
+        <div id="caption"></div>
+    </div>
+</section>
+<footer>
+    <p>Create by Vitalik Tyrlya</p>
+</footer>
+</body>
+</html>
